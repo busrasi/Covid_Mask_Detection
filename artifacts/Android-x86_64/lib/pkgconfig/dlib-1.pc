@@ -1,0 +1,8 @@
+libdir=/home/kobil/TeamCity/buildAgent/fasterHDD/work/e3fb2fee46bf3feb/artifactsOut/Android-x86_64/lib
+includedir=/home/kobil/TeamCity/buildAgent/fasterHDD/work/e3fb2fee46bf3feb/artifactsOut/Android-x86_64/include
+
+Name: dlib
+Description: Numerical and networking C++ library
+Version: 19.21.99
+Libs: -L${libdir} -ldlib 
+Cflags: -I${includedir} 

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mask_detect_v2.svm</file>
+    </qresource>
+</RCC>
