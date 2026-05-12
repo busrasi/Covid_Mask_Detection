@@ -1,35 +1,34 @@
 #include "application_controller.h"
 
 #include <QString>
-#include <QtAndroid>
 #include <QStandardPaths>
 #include <QDir>
 #include <QDebug>
+#include <QFile>
+#include <QIODevice>
 
 ApplicationController::ApplicationController()
     : m_homePath("")
     , m_maskModelPath("")
 {
-    if(!RequestPermissions())
+    if (!RequestPermissions())
     {
-        // TODO cut application here or request again!
+        qDebug() << "ApplicationController :: Permissions were not granted.";
     }
 
-    if(!initializeHomePath())
+    if (!initializeHomePath())
     {
-        // TODO cut application here and fix home path!
+        qDebug() << "ApplicationController :: Failed to initialize home path.";
     }
 
-    if(!initializeMaskModelPath())
+    if (!initializeMaskModelPath())
     {
-        // TODO cut application here and fix mask base path!
+        qDebug() << "ApplicationController :: Failed to initialize mask model path.";
     }
-
 }
 
 ApplicationController::~ApplicationController()
 {}
-
 
 const QString& ApplicationController::shape() const
 {
@@ -38,49 +37,31 @@ const QString& ApplicationController::shape() const
 
 bool ApplicationController::RequestPermissions()
 {
-    // READ EXTERNAL DEVICES
-    auto  readResult = QtAndroid::checkPermission(QString("android.permission.READ_EXTERNAL_STORAGE"));
-    if(readResult == QtAndroid::PermissionResult::Denied)
-    {
-        QtAndroid::PermissionResultMap resultHash = QtAndroid::requestPermissionsSync(QStringList({"android.permission.READ_EXTERNAL_STORAGE"}));
-        if(resultHash["android.permission.READ_EXTERNAL_STORAGE"] == QtAndroid::PermissionResult::Denied)
-        {
-            return false;
-        }
-    }
-
-    // WRITE EXTERNAL DEVICES
-    auto  writeResult = QtAndroid::checkPermission(QString("android.permission.WRITE_EXTERNAL_STORAGE"));
-    if(writeResult == QtAndroid::PermissionResult::Denied)
-    {
-        QtAndroid::PermissionResultMap resultHash = QtAndroid::requestPermissionsSync(QStringList({"android.permission.WRITE_EXTERNAL_STORAGE"}));
-        if(resultHash["android.permission.WRITE_EXTERNAL_STORAGE"] == QtAndroid::PermissionResult::Denied)
-        {
-            return false;
-        }
-    }
-
+    // Qt6 Android:
+    // We are using QStandardPaths::AppDataLocation, which is app-private storage.
+    // Runtime READ/WRITE_EXTERNAL_STORAGE permission is not needed for this path.
     return true;
 }
 
 bool ApplicationController::initializeHomePath()
 {
-    // Android: HomeLocation works, iOS: not writable
-    // Android: AppDataLocation works out of the box, iOS you must create the DIR first !!
     m_homePath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
-    //m_homePath = QStandardPaths::standardLocations(QStandardPaths::AppDataLocation).value(0);
 
-    qDebug() << "ApplicationController :: Home path: " << m_homePath;
+    qDebug() << "ApplicationController :: Home path:" << m_homePath;
+
     QDir homeDir(m_homePath);
+
     if (!homeDir.exists())
     {
-        bool ok = homeDir.mkpath(m_homePath);
-        if(!ok)
+        const bool ok = homeDir.mkpath(m_homePath);
+
+        if (!ok)
         {
-            qDebug() << "ApplicationController :: Couldn't create dir: " << m_homePath;
+            qDebug() << "ApplicationController :: Couldn't create dir:" << m_homePath;
             return false;
         }
-        qDebug() << "ApplicationController :: Created directory path: " << m_homePath;
+
+        qDebug() << "ApplicationController :: Created directory path:" << m_homePath;
     }
 
     return true;
@@ -88,44 +69,48 @@ bool ApplicationController::initializeHomePath()
 
 bool ApplicationController::initializeMaskModelPath()
 {
-    // Check and create to the writable path
-    QString dlibDataPath = m_homePath + "/dlibdata/";
+    const QString dlibDataPath = m_homePath + "/dlibdata/";
+
     QDir homeDir(m_homePath);
+
     if (!homeDir.exists())
     {
-        qDebug() << "ApplicationController :: Couldn't find correct home path: " << m_homePath;
+        qDebug() << "ApplicationController :: Couldn't find correct home path:" << m_homePath;
         return false;
     }
-    else
+
+    const bool ok = homeDir.mkpath(dlibDataPath);
+
+    if (!ok)
     {
-        bool ok = homeDir.mkpath(dlibDataPath);
-        if(!ok)
-        {
-            qDebug() << "ApplicationController :: Couldn't create dir: " << dlibDataPath;
-            return false;
-        }
-        qDebug() << "ApplicationController :: Created directory path: " << dlibDataPath;
+        qDebug() << "ApplicationController :: Couldn't create dir:" << dlibDataPath;
+        return false;
     }
 
-    // liveness model data
+    qDebug() << "ApplicationController :: Created directory path:" << dlibDataPath;
+
     QFile maskModelDataFile(":/mask_detect_v2.svm");
+
     if (!maskModelDataFile.open(QIODevice::ReadOnly))
     {
-        qDebug() << "ApplicationController :: Couldn't open file: " << maskModelDataFile.fileName();
+        qDebug() << "ApplicationController :: Couldn't open file:" << maskModelDataFile.fileName();
         return false;
     }
-
 
     m_maskModelPath = dlibDataPath + "mask_detect_v2.svm";
 
-    if(!maskModelDataFile.copy(m_maskModelPath))
+    if (QFile::exists(m_maskModelPath))
     {
-        qDebug() << "ApplicationController :: Couldn't copy file to dir: " << m_maskModelPath;
+        QFile::remove(m_maskModelPath);
+    }
+
+    if (!maskModelDataFile.copy(m_maskModelPath))
+    {
+        qDebug() << "ApplicationController :: Couldn't copy file to dir:" << m_maskModelPath;
         return false;
     }
-    else {
-        qDebug() << "Managed to copy file to path" << m_maskModelPath;
-    }
+
+    qDebug() << "ApplicationController :: Managed to copy file to path:" << m_maskModelPath;
 
     return true;
 }

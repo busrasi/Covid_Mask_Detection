@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "MaskDetectionWorker",
+            "lineNumber": 13,
+            "object": true,
+            "qualifiedClassName": "MaskDetectionWorker",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "detectionFinished",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frame",
+                            "type": "cv::Mat"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 21,
+                    "name": "detect",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "mask_detection_worker.h",
+    "outputRevision": 69
+}

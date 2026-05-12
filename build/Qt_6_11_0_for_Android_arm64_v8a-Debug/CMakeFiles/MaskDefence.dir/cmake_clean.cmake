@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/MaskDefence.dir/MaskDefence_autogen/3YJK5W5UP7/qrc_res.cpp.o"
+  "CMakeFiles/MaskDefence.dir/MaskDefence_autogen/3YJK5W5UP7/qrc_res.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/MaskDefence_autogen/UYX5XTB5RZ/qrc_qml.cpp.o"
+  "CMakeFiles/MaskDefence.dir/MaskDefence_autogen/UYX5XTB5RZ/qrc_qml.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/MaskDefence_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/MaskDefence.dir/MaskDefence_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/application_controller.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/application_controller.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/camera/mask_detection_filter.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/camera/mask_detection_filter.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/core/mask_detection.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/core/mask_detection.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/core/mask_detection_worker.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/core/mask_detection_worker.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/core/mask_result.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/core/mask_result.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/core/mask_result_collector.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/core/mask_result_collector.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/main.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/main.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/utils/opencv_helper.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/utils/opencv_helper.cpp.o.d"
+  "CMakeFiles/MaskDefence.dir/source/utils/rgb_frame_helper.cpp.o"
+  "CMakeFiles/MaskDefence.dir/source/utils/rgb_frame_helper.cpp.o.d"
+  "CMakeFiles/MaskDefence_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/MaskDefence_autogen.dir/ParseCache.txt"
+  "MaskDefence_autogen"
+  "MaskDefence_autogen/3YJK5W5UP7/qrc_res.cpp"
+  "MaskDefence_autogen/UYX5XTB5RZ/qrc_qml.cpp"
+  "android-build-MaskDefence/libs/arm64-v8a/libMaskDefence.pdb"
+  "android-build-MaskDefence/libs/arm64-v8a/libMaskDefence_arm64-v8a.so"
+  "android-build-MaskDefence/libs/arm64-v8a/libMaskDefence_arm64-v8a.so.manifest"
+  "meta_types/qt6maskdefence_metatypes.json"
+  "meta_types/qt6maskdefence_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/MaskDefence.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,61 @@
+{
+    "classes": [
+        {
+            "className": "MaskDetectionFilter",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "MaskDetectionFilter",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "objectDetected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frame",
+                            "type": "cv::Mat"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 25,
+                    "name": "frameReadyForDetection",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frame",
+                            "type": "QVideoFrame"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 28,
+                    "name": "processFrame",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "mask_detection_filter.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_MaskDefence_FILE D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/android-build-MaskDefence/libs/arm64-v8a/libMaskDefence_arm64-v8a.so)
+set(__QT_DEPLOY_TARGET_MaskDefence_TYPE MODULE_LIBRARY)

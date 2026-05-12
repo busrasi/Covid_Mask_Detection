@@ -1,0 +1,237 @@
+The target system is: Android - 28 - aarch64
+The host system is: Windows - 10.0.26200 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/3.23.4/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):jom -f Makefile /nologo cmTC_af669\fast && jom: parallel job execution disabled for Makefile
+	C:\Qt\Tools\QtCreator\bin\jom\jom.exe  -f CMakeFiles\cmTC_af669.dir\build.make /nologo -L CMakeFiles\cmTC_af669.dir\build
+Building CXX object CMakeFiles/cmTC_af669.dir/CMakeCXXCompilerABI.cpp.o
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles\cmTC_af669.dir\CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\cmTC_af669.dir\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles\cmTC_af669.dir\CMakeCXXCompilerABI.cpp.o -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+Android (12470979, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Target: aarch64-none-linux-android28
+Thread model: posix
+InstalledDir: C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin
+ (in-process)
+ "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe" -cc1 -triple aarch64-none-linux-android28 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp -resource-dir "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18" -dependency-file "CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT "CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o" -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/include" -internal-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o "CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o" -x c++ "C:\\Program Files\\CMake\\share\\cmake-3.23\\Modules\\CMakeCXXCompilerABI.cpp"
+clang -cc1 version 18.0.3 based upon LLVM 18.0.3 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+ C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64/lib/clang/18/include
+ C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+ C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+Linking CXX executable cmTC_af669
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v "CMakeFiles\cmTC_af669.dir\CMakeCXXCompilerABI.cpp.o"  -o cmTC_af669   -latomic -lm
+Android (12470979, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Target: aarch64-none-linux-android28
+Thread model: posix
+InstalledDir: C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin
+ "C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_af669 C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtbegin_dynamic.o "-LC:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64" -LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28 -LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections "CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o" -latomic -lm -lc++ -lm "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl -lc "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+    add: [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/18/include]
+    add: [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+    add: [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/18/include] ==> [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/18/include]
+  collapse include dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/18/include;C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android;C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):jom -f Makefile /nologo cmTC_af669\fast && jom: parallel job execution disabled for Makefile]
+  ignore line: [	C:\Qt\Tools\QtCreator\bin\jom\jom.exe  -f CMakeFiles\cmTC_af669.dir\build.make /nologo -L CMakeFiles\cmTC_af669.dir\build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_af669.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles\cmTC_af669.dir\CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\cmTC_af669.dir\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles\cmTC_af669.dir\CMakeCXXCompilerABI.cpp.o -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Android (12470979  based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)]
+  ignore line: [Target: aarch64-none-linux-android28]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe" -cc1 -triple aarch64-none-linux-android28 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp -resource-dir "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18" -dependency-file "CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT "CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o" -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/include" -internal-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o "CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o" -x c++ "C:\\Program Files\\CMake\\share\\cmake-3.23\\Modules\\CMakeCXXCompilerABI.cpp"]
+  ignore line: [clang -cc1 version 18.0.3 based upon LLVM 18.0.3 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64/lib/clang/18/include]
+  ignore line: [ C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_af669]
+  ignore line: [	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --gc-sections -Qunused-arguments -Wl --no-undefined  -Wl --gc-sections -v "CMakeFiles\cmTC_af669.dir\CMakeCXXCompilerABI.cpp.o"  -o cmTC_af669   -latomic -lm]
+  ignore line: [Android (12470979  based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)]
+  ignore line: [Target: aarch64-none-linux-android28]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  link line: [ "C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_af669 C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtbegin_dynamic.o "-LC:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64" -LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28 -LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections "CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o" -latomic -lm -lc++ -lm "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl -lc "C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtend_android.o]
+    arg [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_af669] ==> ignore
+    arg [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtbegin_dynamic.o] ==> obj [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtbegin_dynamic.o]
+    arg [-LC:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64] ==> dir [C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64]
+    arg [-LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28] ==> dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28]
+    arg [-LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-LC:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles\\cmTC_af669.dir\\CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-latomic] ==> lib [atomic]
+    arg [-lm] ==> lib [m]
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtend_android.o] ==> obj [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtend_android.o]
+  remove lib [C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [C:\\Users\\busra\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64] ==> [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/18/lib/linux/aarch64]
+  collapse library dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28] ==> [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28]
+  collapse library dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [atomic;m;c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtbegin_dynamic.o;C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28/crtend_android.o]
+  implicit dirs: [C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/18/lib/linux/aarch64;C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/28;C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):jom -f Makefile /nologo cmTC_38cb5\fast && jom: parallel job execution disabled for Makefile
+	C:\Qt\Tools\QtCreator\bin\jom\jom.exe  -f CMakeFiles\cmTC_38cb5.dir\build.make /nologo -L CMakeFiles\cmTC_38cb5.dir\build
+Building CXX object CMakeFiles/cmTC_38cb5.dir/CheckIncludeFile.cxx.o
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -std=gnu++17 -MD -MT CMakeFiles\cmTC_38cb5.dir\CheckIncludeFile.cxx.o -MF CMakeFiles\cmTC_38cb5.dir\CheckIncludeFile.cxx.o.d -o CMakeFiles\cmTC_38cb5.dir\CheckIncludeFile.cxx.o -c D:\Projects_2026\Covid_Mask_Detection\build\Qt_6_11_0_for_Android_arm64_v8a-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+Linking CXX executable cmTC_38cb5
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  "CMakeFiles\cmTC_38cb5.dir\CheckIncludeFile.cxx.o"  -o cmTC_38cb5   -latomic -lm
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):jom -f Makefile /nologo cmTC_6a2c6\fast && jom: parallel job execution disabled for Makefile
+	C:\Qt\Tools\QtCreator\bin\jom\jom.exe  -f CMakeFiles\cmTC_6a2c6.dir\build.make /nologo -L CMakeFiles\cmTC_6a2c6.dir\build
+Building CXX object CMakeFiles/cmTC_6a2c6.dir/src.cxx.o
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_STDATOMIC  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -std=gnu++17 -MD -MT CMakeFiles\cmTC_6a2c6.dir\src.cxx.o -MF CMakeFiles\cmTC_6a2c6.dir\src.cxx.o.d -o CMakeFiles\cmTC_6a2c6.dir\src.cxx.o -c D:\Projects_2026\Covid_Mask_Detection\build\Qt_6_11_0_for_Android_arm64_v8a-Debug\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_6a2c6
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  "CMakeFiles\cmTC_6a2c6.dir\src.cxx.o"  -o cmTC_6a2c6   -latomic -lm
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+int main(int, char **)
+{
+    volatile std::atomic<char>    size_1;
+    volatile std::atomic<short>   size_2;
+    volatile std::atomic<int>     size_4;
+    volatile std::atomic<int64_t> size_8;
+
+    ++size_1;
+    ++size_2;
+    ++size_4;
+    ++size_8;
+
+    (void)size_1.load(std::memory_order_relaxed);
+    (void)size_2.load(std::memory_order_relaxed);
+    (void)size_4.load(std::memory_order_relaxed);
+    (void)size_8.load(std::memory_order_relaxed);
+
+    return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_EGL succeeded with the following output:
+Change Dir: D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):jom -f Makefile /nologo cmTC_af165\fast && jom: parallel job execution disabled for Makefile
+	C:\Qt\Tools\QtCreator\bin\jom\jom.exe  -f CMakeFiles\cmTC_af165.dir\build.make /nologo -L CMakeFiles\cmTC_af165.dir\build
+Building CXX object CMakeFiles/cmTC_af165.dir/src.cxx.o
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_EGL  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -std=gnu++17 -MD -MT CMakeFiles\cmTC_af165.dir\src.cxx.o -MF CMakeFiles\cmTC_af165.dir\src.cxx.o.d -o CMakeFiles\cmTC_af165.dir\src.cxx.o -c D:\Projects_2026\Covid_Mask_Detection\build\Qt_6_11_0_for_Android_arm64_v8a-Debug\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_af165
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  "CMakeFiles\cmTC_af165.dir\src.cxx.o"  -o cmTC_af165  C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr\lib\aarch64-linux-android\28\libEGL.so  -latomic -lm
+
+
+Source file was:
+
+#include <EGL/egl.h>
+
+int main(int, char **) {
+    [[maybe_unused]] EGLint x = 0;
+    EGLDisplay dpy = 0; EGLContext ctx = 0;
+    eglDestroyContext(dpy, ctx);
+}
+Performing C++ SOURCE FILE Test HAVE_GLESv2 succeeded with the following output:
+Change Dir: D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):jom -f Makefile /nologo cmTC_250d0\fast && jom: parallel job execution disabled for Makefile
+	C:\Qt\Tools\QtCreator\bin\jom\jom.exe  -f CMakeFiles\cmTC_250d0.dir\build.make /nologo -L CMakeFiles\cmTC_250d0.dir\build
+Building CXX object CMakeFiles/cmTC_250d0.dir/src.cxx.o
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_GLESv2  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -std=gnu++17 -MD -MT CMakeFiles\cmTC_250d0.dir\src.cxx.o -MF CMakeFiles\cmTC_250d0.dir\src.cxx.o.d -o CMakeFiles\cmTC_250d0.dir\src.cxx.o -c D:\Projects_2026\Covid_Mask_Detection\build\Qt_6_11_0_for_Android_arm64_v8a-Debug\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_250d0
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  "CMakeFiles\cmTC_250d0.dir\src.cxx.o"  -o cmTC_250d0  C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr\lib\aarch64-linux-android\28\libGLESv2.so C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr\lib\aarch64-linux-android\28\libEGL.so  -latomic -lm
+
+
+Source file was:
+
+#ifdef __APPLE__
+#  include <OpenGLES/ES2/gl.h>
+#else
+#  define GL_GLEXT_PROTOTYPES
+#  include <GLES2/gl2.h>
+#endif
+
+int main(int, char **) {
+    glUniform1f(1, GLfloat(1.0));
+    glClear(GL_COLOR_BUFFER_BIT);
+}

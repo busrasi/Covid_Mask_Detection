@@ -1,0 +1,16 @@
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/apk.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/aab.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/aar.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_copy_apk_dependencies.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/_qt_internal_apk_dependencies.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/qt_internal_plugins.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_prepare_apk_dir.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_make_apk.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_make_aar.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_make_aab.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/apk_all.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_automoc_json_extraction.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/edit_cache.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/rebuild_cache.dir
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_autogen.dir

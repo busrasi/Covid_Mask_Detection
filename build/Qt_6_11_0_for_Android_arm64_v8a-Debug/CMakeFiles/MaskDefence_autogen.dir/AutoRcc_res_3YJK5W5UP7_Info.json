@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/MaskDefence_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Projects_2026/Covid_Mask_Detection",
+	"CMAKE_SOURCE_DIR" : "D:/Projects_2026/Covid_Mask_Detection",
+	"INCLUDE_DIR" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/MaskDefence_autogen/include",
+	"INPUTS" : [ "D:/Projects_2026/Covid_Mask_Detection/resources/mask_detect_v2.svm" ],
+	"LOCK_FILE" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_autogen.dir/AutoRcc_res_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.11.0/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_autogen.dir/AutoRcc_res_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "D:/Projects_2026/Covid_Mask_Detection/resources/res.qrc",
+	"VERBOSITY" : 0
+}

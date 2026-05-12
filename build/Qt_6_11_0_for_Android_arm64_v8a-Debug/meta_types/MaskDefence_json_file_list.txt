@@ -1,0 +1,2 @@
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/MaskDefence_autogen/include/../3CDRMJMZOV/moc_mask_detection_filter.cpp.json
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/MaskDefence_autogen/include/../ABAUAXXAI3/moc_mask_detection_worker.cpp.json

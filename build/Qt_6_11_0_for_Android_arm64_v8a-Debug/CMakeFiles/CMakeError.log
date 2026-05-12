@@ -1,0 +1,64 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld: error: unable to find library -lstdc++
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc_s
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -ladvapi32
+lld: error: unable to find library -lshell32
+lld: error: unable to find library -luser32
+lld: error: unable to find library -lkernel32
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc_s
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -lkernel32
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):jom -f Makefile /nologo cmTC_a1ccc\fast && jom: parallel job execution disabled for Makefile
+	C:\Qt\Tools\QtCreator\bin\jom\jom.exe  -f CMakeFiles\cmTC_a1ccc.dir\build.make /nologo -L CMakeFiles\cmTC_a1ccc.dir\build
+Building CXX object CMakeFiles/cmTC_a1ccc.dir/src.cxx.o
+	C:\Users\busra\AppData\Local\Android\Sdk\ndk\27.2.12479018\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android28 --sysroot=C:/Users/busra/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -std=gnu++17 -MD -MT CMakeFiles\cmTC_a1ccc.dir\src.cxx.o -MF CMakeFiles\cmTC_a1ccc.dir\src.cxx.o.d -o CMakeFiles\cmTC_a1ccc.dir\src.cxx.o -c D:\Projects_2026\Covid_Mask_Detection\build\Qt_6_11_0_for_Android_arm64_v8a-Debug\CMakeFiles\CMakeTmp\src.cxx
+D:\Projects_2026\Covid_Mask_Detection\build\Qt_6_11_0_for_Android_arm64_v8a-Debug\CMakeFiles\CMakeTmp\src.cxx:13:3: error: use of undeclared identifier 'pthread_cancel'
+   13 |   pthread_cancel(thread);
+      |   ^
+1 error generated.
+jom: D:\Projects_2026\Covid_Mask_Detection\build\Qt_6_11_0_for_Android_arm64_v8a-Debug\CMakeFiles\CMakeTmp\CMakeFiles\cmTC_a1ccc.dir\build.make [CMakeFiles\cmTC_a1ccc.dir\src.cxx.o] Error 1
+jom: D:\Projects_2026\Covid_Mask_Detection\build\Qt_6_11_0_for_Android_arm64_v8a-Debug\CMakeFiles\CMakeTmp\Makefile [cmTC_a1ccc\fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

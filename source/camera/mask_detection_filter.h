@@ -1,59 +1,40 @@
 #ifndef MASK_DETECTION_FILTER_H
 #define MASK_DETECTION_FILTER_H
 
-#include <QAbstractVideoFilter>
 #include <QObject>
-#include <QTemporaryFile>
-#include <QMutex>
+#include <QVideoFrame>
+#include <QElapsedTimer>
+#include <QThread>
+
+#include <opencv2/opencv.hpp>
 
 #include "source/core/mask_detection.h"
+#include "source/core/mask_detection_worker.h"
 
-class MaskDetectionFilter : public QAbstractVideoFilter
+class MaskDetectionFilter : public QObject
 {
-        Q_OBJECT
-    public:
-        /**
-         * @brief C-tor
-         */
-        MaskDetectionFilter();
+    Q_OBJECT
 
-        /**
-         * @brief C-tor with engine param
-         * @param engine
-         */
-        MaskDetectionFilter(MaskDetection* maskDetection);
+public:
+    explicit MaskDetectionFilter(QObject *parent = nullptr);
+    explicit MaskDetectionFilter(MaskDetection *maskDetection, QObject *parent = nullptr);
+    ~MaskDetectionFilter();
 
-        /**
-         * @brief abstract runable override
-         * @return
-         */
-        QVideoFilterRunnable *createFilterRunnable();
+signals:
+    void objectDetected(bool result);
+    void frameReadyForDetection(const cv::Mat frame);
 
-        /**
-         * @brief get Mask
-         * @return
-         */
-        MaskDetection *getMaskDetection();
+public slots:
+    void processFrame(const QVideoFrame &frame);
 
-    signals:
-        void objectDetected(bool result);
+private:
+    MaskDetection *m_maskDetection = nullptr;
 
-    public slots:
+    QThread m_workerThread;
+    MaskDetectionWorker *m_worker = nullptr;
 
-    private:
-        MaskDetection* m_maskDetection;
-
-};
-
-class MaskDetectionFilterRunnable : public QVideoFilterRunnable
-{
-    public:
-        MaskDetectionFilterRunnable(MaskDetectionFilter *filter);
-        QVideoFrame run(QVideoFrame *input, const QVideoSurfaceFormat &surfaceFormat, RunFlags flags);
-
-    private:
-        MaskDetectionFilter *filter;
-        unsigned long long int frameCounter = 0;
+    QElapsedTimer m_timer;
+    bool m_detectionBusy = false;
 };
 
 #endif // MASK_DETECTION_FILTER_H

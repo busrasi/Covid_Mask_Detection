@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/MaskDefence_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Projects_2026/Covid_Mask_Detection",
+	"CMAKE_SOURCE_DIR" : "D:/Projects_2026/Covid_Mask_Detection",
+	"INCLUDE_DIR" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/MaskDefence_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/Projects_2026/Covid_Mask_Detection/ui/test_image.jpeg",
+		"D:/Projects_2026/Covid_Mask_Detection/ui/main.qml"
+	],
+	"LOCK_FILE" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_autogen.dir/AutoRcc_qml_UYX5XTB5RZ_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "UYX5XTB5RZ",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.11.0/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/CMakeFiles/MaskDefence_autogen.dir/AutoRcc_qml_UYX5XTB5RZ_Used.txt",
+	"SOURCE" : "D:/Projects_2026/Covid_Mask_Detection/ui/qml.qrc",
+	"VERBOSITY" : 0
+}

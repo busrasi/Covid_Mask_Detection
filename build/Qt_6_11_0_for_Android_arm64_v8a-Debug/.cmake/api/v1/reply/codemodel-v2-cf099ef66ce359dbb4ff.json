@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MaskDefence",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MaskDefence::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaskDefence-Debug-6b975bbafa7ad9bc9b3e.json",
+					"name" : "MaskDefence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaskDefence_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaskDefence_autogen-Debug-d6d8d2de81ba2df7a7b9.json",
+					"name" : "MaskDefence_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaskDefence_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaskDefence_automoc_json_extraction-Debug-90b28ced191d1deecebe.json",
+					"name" : "MaskDefence_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaskDefence_copy_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaskDefence_copy_apk_dependencies-Debug-2967651d7ecfad128940.json",
+					"name" : "MaskDefence_copy_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaskDefence_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaskDefence_make_aab-Debug-eecda8306556b8e6c41a.json",
+					"name" : "MaskDefence_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaskDefence_make_aar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaskDefence_make_aar-Debug-255583326c9910441f52.json",
+					"name" : "MaskDefence_make_aar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaskDefence_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaskDefence_make_apk-Debug-3c47b84b3d0689bdcce4.json",
+					"name" : "MaskDefence_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaskDefence_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaskDefence_prepare_apk_dir-Debug-21f9cd3d78cc39fcdf7c.json",
+					"name" : "MaskDefence_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-58f6e7fd5951fa5b5783.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-b8dd645b00172ae2bc11.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aar-Debug-22f0858aff5418383c17.json",
+					"name" : "aar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-772d0544baa4198435a2.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-54aac3484306cd43d593.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-82e383a47658d0f11d1b.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug",
+		"source" : "D:/Projects_2026/Covid_Mask_Detection"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

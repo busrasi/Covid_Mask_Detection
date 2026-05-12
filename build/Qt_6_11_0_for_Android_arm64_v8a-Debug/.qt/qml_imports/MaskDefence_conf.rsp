@@ -1,0 +1,9 @@
+-rootPath
+D:/Projects_2026/Covid_Mask_Detection
+-cmake-output
+-output-file
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/.qt/qml_imports/MaskDefence_conf.cmake
+-importPath
+D:/Projects_2026/Covid_Mask_Detection/build/Qt_6_11_0_for_Android_arm64_v8a-Debug
+-importPath
+C:/Qt/6.11.0/android_arm64_v8a/qml
